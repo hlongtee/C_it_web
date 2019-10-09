@@ -1,0 +1,17 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>主页</title>
+
+</head>
+<body>
+这是主页
+你好{{ name }}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/myscss.css' %}">
+<img src="{% static 'img/照片.jpg' %}" alt="">
+<script src="{% static 'js/mysjs.js' %}"></script>
+</body>
+</html>
